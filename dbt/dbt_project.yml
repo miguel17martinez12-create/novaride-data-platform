@@ -2,6 +2,8 @@ name: "novaride_analytics"
 version: "1.0.0"
 config-version: 2
 
+profile: "local_databricks_cluster"
+
 model-paths: ["models"]
 
 models:
