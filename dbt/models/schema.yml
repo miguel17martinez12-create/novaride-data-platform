@@ -30,7 +30,7 @@ models:
               to: ref('dim_customers')
               field: customer_id
 
-    - name: dim_drivers
+  - name: dim_drivers
     description: Driver dimension built from cleaned Silver driver data.
 
     columns:
